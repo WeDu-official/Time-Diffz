@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "Time_diffz"
-version = "1.0.0.3-beta"
+version = "1.0.0.4-beta"
 authors = [
   { name="WeDu-official", email="fplu.the.founder@gmail.com" },
 ]
