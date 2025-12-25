@@ -1,7 +1,7 @@
 #THIS IS timediffz 1.0.0.2 (fractionals mode) - made by wedu_official
 import sys
 # noinspection PyUnresolvedReferences
-from fractionals import Fraction #cython
+from src.timediffz.fractionals import Fraction #cython
 import requests, bisect
 sys.set_int_max_str_digits(0)
 TT_TAI_OFFSET_SECONDS = Fraction(32184, 1000)
