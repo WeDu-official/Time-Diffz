@@ -1,4 +1,5 @@
-<img src="" alt="time_diffzlogo-removebg-preview" width="500">
+<img width="504" alt="time_diffz-high-resolution-logo-transparent" src="https://github.com/user-attachments/assets/6d0285dd-6cdd-4ea1-804b-561b98b0bac2" />
+
 
 **Time_diffz** a library for timestamps and differences between dates
 
