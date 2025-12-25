@@ -1,4 +1,5 @@
-<img src="" alt="time_diffzlogo-removebg-preview" width="500">
+<img width="504" alt="time_diffz-high-resolution-logo-transparent" src="https://github.com/user-attachments/assets/6d0285dd-6cdd-4ea1-804b-561b98b0bac2" />
+
 
 **Time_diffz** a library for timestamps and differences between dates
 
@@ -22,6 +23,10 @@ AND CYTHON AND INSTALLING GMP ON YOUR COMPUTER AND BUILDING THE CYTHON SETUP FIL
 WITH THIS COMMAND:
 ```batch
 python setupfractionals.py build_ext --inplace
+```
+or the same but with python as python3:
+```batch
+python3 setupfractionals.py build_ext --inplace
 ```
 the first mode functions starts with prefix: p*, while second mode ones
 start with prefix: c*, then after the first prefix the second prefix is the
