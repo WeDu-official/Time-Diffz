@@ -3,8 +3,8 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "Time_diffz"
-version = "1.0.0.4-beta"
+name = "Timediffz"
+version = "1.0.0.1-beta"
 authors = [
   { name="WeDu-official", email="fplu.the.founder@gmail.com" },
 ]
