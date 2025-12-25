@@ -37,7 +37,7 @@ mode which would be (p/c d), REAL DOCUMENTATION WITH COME SOON!!
 to install use the following command(note installing the library in this way
 would install library requirements both main and optional):
 
-<code>pip install Timediffz==1.0.0.1b0</code>
+<code>pip install Timediffz</code>
 
 ## Contribute
 
