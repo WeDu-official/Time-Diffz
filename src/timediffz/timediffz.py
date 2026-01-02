@@ -1,8 +1,9 @@
 import warnings
 try: import td1inner as td1
-except Exception: warnings.warn(f"timediffz 1.0.0.11 (fractions mode) failed to load correctly :(using any fractions mode related function WOULD give an error and fall because of this, for fix do pip install td1inner")
-try: from td2inner import td2inner as td2
-except Exception: warnings.warn(f"timediffz 1.0.0.11 (fractionals mode) failed to load correctly :(using any fractionals mode related function WOULD give an error and fall because of this, to fix either/both do pip install td2inner and you need to setup fractionals via this command 'cd (full path of folder where setupfractionals.py is in, found in the td2inner library files)' & 'python(3 or nothing) setupfractionals.py build_ext --inplace')'")
+except Exception: warnings.warn(f"timediffz 1.0.3 (fractions mode) failed to load correctly :( using any fractions mode related function WOULD give an error and fall because of this, for fix do pip install td1inner")
+try: import td2inner as td2
+except Exception: warnings.warn(f"""timediffz 1.0.3 (fractionals mode) failed to load correctly :( using any fractionals mode related function WOULD give an error and fall because of this, to fix either/both do steps in fractionalstd2inner readme at this
+link 'https://github.com/WeDu-official/fractionalstd2inner' and install td2inner via 'pip install td2inner' """)
 def pdiff (s,e,tz_s=0,tz_e=0,unit_factor=1,count_ls_param=True,UTDLS=False,input_utc=True,output_tt=False):
     """this function give the difference between the two dates(s and e) in unit_factor, fractions version
     S: is the first date(starting date) and it's a list made off: [Y(year),M(month),D(day),H(hour),MI(minute),S(second),SS(sub-seconds)] and all of these items integers
